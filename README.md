@@ -8,7 +8,12 @@ When the reader has completed this journey, they will understand how to:
 * Run Notebooks in [IBM Data Science Experience](https://datascience.ibm.com/)
 * Leverage [R4ML](https://github.com/SparkTC/r4ml) to do the big data exploratory analysis and data preperation
 
-The intended audience for this journey is datapplication developers and other stakeholders who wish to utilize the power of Data Science quickly and effectively to solve machine learning problems using Apache SystemML. In this case, a Linear Regression example is provided to demonstrate the ease and power of Apache SystemML. There are various out of box algorithms provided by Apache SystemML. Users can develop their own algorithms using Apache SystemML's Declarative Machine Language (DML) which has R or Python like syntax, or customize any algorithm provided in the package. For more information about additional functionality support, documentation, and roadmap, please visit [Apache SystemML](http://systemml.apache.org)
+What problem does it solve for developers?
+
+1. Large Scale Exploratory Analytics and Data Preparation 
+2. Dimensionality reductions.
+3. How to use favorite R utilities on big data 
+4. Since most of the time, a data scientist spent is on data exploration and preparation, this journey will acts as tutorials
 
 # Included Components
 
