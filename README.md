@@ -12,13 +12,16 @@ The Intended audience of this code pattern is data scientists, who wish to do th
 R4ML provides various out of the box tools, and preprocessing utility for doing the feature engineering. It also provides sampling utility to sample the data and do the exploratory analysis. This specific Code Pattern will provide end to end example to demonstate the ease and power of R4ML in implementing data preprocessing and data exploration. For more information about additional functionality support, documentation, and the roadmap, please vist [R4ML](https://github.com/SparkTC/r4ml)
 
 ### Source of data
- -) We use the Airline On-Time Statistics and Delay Causes from RITA
+
+ - We use the Airline On-Time Statistics and Delay Causes from RITA
     A 1% sample of the "airline" dataset available at
      http://stat-computing.org/dataexpo/2009/the-data.html This data
      originally comes from RITA (http://www.rita.dot.gov) and is in the
      public domain.
- -) For this example, we will use, a subset of above dataset, which is shipped with R4ML
- -) User can use the bigger dataset from RITA and our code will work with that.
+
+ - For this example, we will use, a subset of above dataset, which is shipped with R4ML
+
+ - User can use the bigger dataset from RITA and our code will work with that.
 
 
 ## Flow
@@ -70,11 +73,13 @@ R4ML provides various out of the box tools, and preprocessing utility for doing 
 
 #### Content
 
- -) We will first load the package and data and do the initial transformation and various feature engineering
+ - We will first load the package and data and do the initial transformation and various feature engineering
 
- -) We will sample the dataset and use the powerful ggplot2 library from R to do various exploratory analysis
+ - We will sample the dataset and use the powerful ggplot2 library from R to do various exploratory analysis
 
- -) In the end, we will run PCA to reduce the dimension of the dataset and select the k components to cover 90% of variance
+ - In the end, we will run PCA to reduce the dimension of the dataset and select the k components to cover 90% of variance
+
+ - More details are in the notebooks
 
 
 
