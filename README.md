@@ -200,9 +200,11 @@ options to specify exactly what you want shared from your notebook:
 
 ## Sample output
 
-The following screen-shots shows the output of the exploratory analysis.
+The following screen-shots shows the histogram of the exploratory analysis .
 
 ![Exploratory Analysis Histogram](doc/source/images/r4ml-hist.png)
+
+The following screen-shots shows the correlation between various features of the exploratory analysis .
 
 ![Exploratory Analysis Correlation between various features](doc/source/images/r4ml-corr.png)
 
