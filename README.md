@@ -192,14 +192,24 @@ options to specify exactly what you want shared from your notebook:
 
  - We will first load the package and data and do the initial transformation and various feature engineering
 
- - We will sample the dataset and use the powerful ggplot2 library from R to do various exploratory analysis
+ - We will sample the dataset and use the powerful ggplot2 library from R to do various exploratory analysis in exploratory analysis notebook.
 
- - In the end, we will run PCA to reduce the dimension of the dataset and select the k components to cover 90% of variance
+ - In the end, we will run PCA to reduce the dimension of the dataset and select the k components to cover 90% of variance in dimension reduction notebook.
 
  - More details are in the notebooks
 
 ## Sample output
 
+The following screen-shots shows the output of the exploratory analysis.
+
+![Exploratory Analysis Histogram](doc/source/images/r4ml-hist.png)
+
+![Exploratory Analysis Correlation between various features](doc/source/images/r4ml-corr.png)
+
+
+The following screen-shots shows the output of the dimensionality reduction using PCA and how only 6 components of PCA carries 90% of information.
+
+![Dimension Reduction using PCA](doc/source/images/r4ml-pca-dimred.png)
 
 Awesome job following along! Now go try and take this further or apply it to a different use case!
 
